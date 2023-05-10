@@ -1,0 +1,369 @@
+#containers {
+  display: flex;
+  width: 700px;
+  height: auto;
+  margin: 50px auto;
+  font-family: 'EB Garamond', serif;
+}
+
+.containerleft {
+  
+  background-color: #042940;
+  color: #fff;
+}
+.containerright {
+  background-color: #005C53;
+  padding-left: 20px;
+}
+
+.fotoperfil {
+  width: 320px;
+  margin-top: 20px;
+}
+  
+.containerleft h2 {
+  text-align: center;
+}
+
+.contact {
+  margin-top: -2px;
+}
+
+.contact-row li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+.gmail-icon,
+.phone-icon,
+.location-icon,
+.web-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.gmail-icon,
+.phone-icon,
+.location-icon,
+.web-icon {
+  background-color: #9FC131;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -39px;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+
+
+}
+
+.gmail-icon i,
+.phone-icon i,
+.location-icon i,
+.web-icon i {
+  font-size: 20px;
+  color: #121212;
+}
+
+.bars-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.habilidad {
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.habilidad-info {
+  display: flex;
+  width: 100%;
+}
+
+
+.habilidad-info span {
+  text-align: left;
+  width: 50%;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+.barra1 {
+  margin-left: 3px;
+  max-width: 100%;
+}
+
+.barra2 {
+  margin-left: 8px;
+  width: 180px;
+  
+}
+
+
+
+.softwares-bar{
+  display: flex;
+  flex-direction: column;
+}
+
+.span-texto {
+padding-left: 30px;
+padding-right: 52px;
+} 
+
+.softwares-bar span {
+  line-height: 2;
+  padding-right: -40px;
+}
+
+.softwares-bar progress{
+  width: 130px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+
+.vscode-bar progress {
+  margin-left: 23px;
+}
+
+progress {
+  height: 15px;
+  width: 170px;
+  border-radius: 5px;
+  border: 3px solid #005C53     ;
+  
+ }
+progress::-webkit-progress-value {
+  background-color: #DBF227;
+}
+
+progress::-moz-progress-bar {
+  background-color: #DBF227;
+}
+
+
+
+.botton-hobbies {
+  display: flex;
+  width: 310px;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center ;
+  margin-top: -20px;
+  padding-left: 5px;
+ padding-bottom: 15px;
+  
+}
+
+.botton-hobbies button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition-property: outline-offset, outline-color,background-color;
+  transition-duration: 0.25s;
+}
+
+.botton-hobbies button:hover {
+  outline-offset: 4px;
+  outline-color: #1DB954;
+}
+
+.botton-hobbies button:hover i {
+animation: shake 0.25s;
+}
+
+.botton-hobbies i {
+  font-size: 25px;
+}
+
+@keyframes shake {
+ 10% {
+  transform: rotate(15deg);
+ }  
+ 20% {
+  transform: rotate(-15deg);
+ }
+ 30% {
+  transform: rotate(15deg);
+ }
+ 40% {
+  transform: rotate(-15deg)
+ }
+}
+
+
+.steam-buttom:hover {
+  background-image: linear-gradient(to bottom ,#005eff, #171a21);
+  
+}
+
+.manga-buttom:hover {
+  background-image: linear-gradient(to bottom,#0A2B3E, #005C53
+  );
+}
+
+.music-buttom:hover {
+  background-image: linear-gradient(to bottom, #1DB954, #121212);
+
+}
+
+.serie-buttom:hover {
+  background-image: linear-gradient(to bottom, #0000FF, #FF0000);
+}
+
+.botton-hobbies button {
+  background-color: #121212 ;
+  outline-color:#fff;
+}
+
+.fa-brands.fa-steam:hover {
+  color: #9FC131;
+}
+
+
+.containerright {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+  padding-right: 50px;
+  color: #121212;
+}
+
+.titulo{
+  margin-top: -10px;
+  color: #121212;
+}
+
+.nombre {
+  padding-left: 0px;
+  color: #042941;
+  font-size: 44px;
+  margin-left: 102px;
+}
+
+.apellido{
+  display: block;
+  color: #121212;
+  margin-top: -34px;
+  font-size: 50px;
+  margin-left: 48px;
+  
+  
+}
+
+.introduccion {
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.informacion-per {
+  font-size: 20px;
+  width: 280px;
+  height: 22px;
+  background-color:#DBF227 ;
+  border-radius: 10px 10px ;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #121212;
+
+
+}
+
+.educacion-bor {
+
+font-size: 20px;
+  width: 140px;
+  height: 22px;
+  background-color:#DBF227 ;
+  border-radius: 10px 10px ;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #121212;
+}
+
+.experiencia-bor {
+  font-size: 20px;
+  width: 155px;
+  height: 22px;
+  background-color:#DBF227 ;
+  border-radius: 10px 10px ;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #121212;
+  color: #121212;
+}
+
+.social-bor {
+  font-size: 20px;
+  width: 92px;
+  height: 22px;
+  background-color:#DBF227 ;
+  border-radius: 10px 10px ;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: #121212;
+
+}
+.experiencia-lista span,
+.educacion-lista span {
+  display: block;
+}
+
+.buttons-social li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: -40px;
+
+}
+
+.buttons-social span {
+  display: block;
+  font-size: 12px;
+}
+
+.facebook-user,
+.git-user,
+.linkedin-user {
+  margin-left: 10px;
+}
+
+.buttons-social button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: 2px solid;
+  transition-duration:0.25s ;
+  
+}
+
+.buttons-social button:hover {
+  outline-offset: 2px;
+}
+
+.facebook-icon:hover {
+  color: #1877f2;
+}
+
+.linkedin-icon:hover {
+color:#0077B5;
+}
+
+
+    
